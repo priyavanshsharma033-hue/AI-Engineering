@@ -1,0 +1,14 @@
+class student:
+
+    def __init__(self, name, age,course):
+        self.name = name
+        self.age = age
+        self.course = course
+
+s1 = student("John", 20, "Computer Science")
+s2 = student("Alice", 22, "Mathematics")
+s3 = student("Bob", 19, "Physics")
+
+s1.course="Data Science"
+
+print(s1.name, s1.age, s1.course)

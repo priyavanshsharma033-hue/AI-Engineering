@@ -1,0 +1,14 @@
+import requests
+try:
+    response = requests.get("https://jsonplaceholder.typicode.com/posts/1")
+    response.raise_for_status()
+    data = response.json()
+
+    print(data)
+    print(response.status_code)
+    print(data["title"])
+    print(data["body"])
+    print(type(data))
+    print(data.keys())
+except requests.exceptions.RequestException as e:
+    print("An error occurred:", e)
