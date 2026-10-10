@@ -1,0 +1,27 @@
+# API Explorer
+
+A beginner Python project for learning HTTP requests and REST APIs.
+
+## Features
+
+- Fetch a post by ID
+- Fetch posts by user ID
+- Create a test post using POST
+- Handle API request errors
+- Interactive terminal menu
+
+## Technologies
+
+- Python
+- Requests library
+- JSONPlaceholder API
+
+## How to run
+
+Install the dependency:
+
+    python -m pip install requests
+
+Run the program:
+
+    python api_explorer.py
