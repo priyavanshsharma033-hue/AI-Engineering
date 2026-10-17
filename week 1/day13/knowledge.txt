@@ -1,0 +1,15 @@
+Python is a beginner-friendly programming language used to build software, automate tasks, and develop AI applications.
+
+FastAPI is a Python framework used to build backend APIs. It supports HTTP methods such as GET and POST.
+
+Ollama allows developers to run large language models locally on their computers.
+
+Embeddings convert text into numerical vectors that represent aspects of their meaning.
+
+Semantic search finds documents that are similar in meaning to a question, even when the exact words differ.
+
+RAG stands for Retrieval-Augmented Generation. It retrieves relevant information and provides it to an AI model as context.
+
+Qwen2.5 is a family of language models that can generate text and answer questions.
+
+Vector databases store embeddings and help applications search large collections of information efficiently.
