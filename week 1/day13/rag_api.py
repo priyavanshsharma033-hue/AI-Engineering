@@ -14,6 +14,10 @@ from pathlib import Path
 KNOWLEDGE_FILE=Path(__file__).parent/"knowledge.txt"
 
 def load_documents():
+    if not KNOWLEDGE_FILE.exists():
+        raise FileNotFoundError(
+            f"Knowledge file not found: {KNOWLEDGE_FILE}"
+        )
     text=KNOWLEDGE_FILE.read_text(encoding="UTF-8")
 
     documents=[
